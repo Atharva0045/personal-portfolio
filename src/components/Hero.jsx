@@ -9,7 +9,7 @@ const Hero = () => {
         transition={{ duration: 1 }}
         className="max-w-6xl mx-auto px-3 sm:px-4 lg:px-6 text-center"
       >
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-mono font-extrabold">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-mono font-extrabold break-words">
           <span className="text-green-400">&gt; </span>
           Hi, I'm Atharva Aher
         </h1>

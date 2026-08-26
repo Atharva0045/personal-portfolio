@@ -2,9 +2,22 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* Add this near the top of the file, after the imports */
 html {
   scroll-behavior: smooth;
+}
+
+html,
+body {
+  background-color: #000;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#root {
+  background-color: #000;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* Custom Scrollbar Styling */

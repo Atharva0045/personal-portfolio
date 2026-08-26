@@ -5,19 +5,30 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 const Projects = () => {
   const projects = [
     {
-      title: "News Headline Analyzer",
-      description: "Web Application for sentiment analysis using Flask and TensorFlow",
-      technologies: ["Python", "TensorFlow", "Scikit-Learn", "Flask", "HTML", "CSS", "Git"],
-      github: "https://github.com/Atharva0045/Sentiment-Analysis-Using-Neural-Network",
-      website: "https://sentiment-analysis-nn.koyeb.app/" // Leave empty if no website yet
+      title: "InspireAPI Backend CI",
+      description:
+        "Full CI pipeline with dependency caching, Jest tests on in-memory MongoDB, and ESLint/Prettier — cutting test time by ~50% and lint issues by ~80%.",
+      technologies: ["GitHub Actions", "Node.js", "MongoDB", "Jest"],
+      github: "https://github.com/Atharva0045/inspireapi-backend",
+      website: "",
     },
     {
-      title: "AQI Prediction Web Application",
-      description: "Web Application for predicting air quality using Machine Learning.",
-      technologies: ["Python", "Scikit-Learn", "Flask", "HTML", "CSS", "JavaScript", "Git"],
-      github: "https://github.com/Atharva0045/Air-Quality-Prediction",
-      website: ""
-    }
+      title: "InspireAPI FullStack Orchestration",
+      description:
+        "Docker Compose orchestration for backend, frontend, and database with a single-command local setup, layer-optimized images, and portable Linux/Windows configs.",
+      technologies: ["Docker", "Compose", "Node.js", "React"],
+      github: "https://github.com/Atharva0045/inspireapi-backend",
+      website: "",
+    },
+    {
+      title: "News Headline Analyzer",
+      description:
+        "End-to-end sentiment classification pipeline with a custom neural network (78% accuracy) and a Flask inference server with a lightweight UI.",
+      technologies: ["Python", "TensorFlow", "Flask"],
+      github:
+        "https://github.com/Atharva0045/Sentiment-Analysis-Using-Neural-Network",
+      website: "https://sentiment-analysis-nn.koyeb.app/",
+    },
   ];
 
   return (
